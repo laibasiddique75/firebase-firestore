@@ -1,0 +1,27 @@
+.gradient-custom {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-container {
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .gradient-custom {
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+    .card-body {
+        padding: 1rem;
+    }
+}

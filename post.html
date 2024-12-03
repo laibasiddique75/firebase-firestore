@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firestore CRUD Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="max-w-2xl mx-auto mt-10 p-6 bg-white rounded-lg shadow-md" id="postForm">
+        <h2 class="text-2xl font-semibold mb-4">Create a Post</h2>
+        <form>
+            <!-- Post Title -->
+            <div class="mb-4">
+                <label for="postTitle" class="block text-gray-700 font-medium mb-2">Title</label>
+                <input type="text" id="postTitle" placeholder="Enter the title"
+                       class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <!-- Post Content -->
+            <div class="mb-4">
+                <label for="postContent" class="block text-gray-700 font-medium mb-2">Write your post</label>
+                <textarea id="postContent" rows="5" placeholder="Write something amazing..."
+                          class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"></textarea>
+            </div>
+            <!-- Action Buttons -->
+            <button type="button" id="post" class="w-full bg-blue-500 text-white font-semibold p-3 rounded-md hover:bg-blue-600 mb-4">Post</button>
+            <button type="button" id="allpost" class="w-full bg-green-500 text-white font-semibold p-3 rounded-md hover:bg-green-600 mb-4">Get All Posts</button>
+            <button type="button" id="delpost" class="w-full bg-red-500 text-white font-semibold p-3 rounded-md hover:bg-red-600 mb-4">Delete Post</button>
+            <button type="button" id="updpost" class="w-full bg-yellow-500 text-white font-semibold p-3 rounded-md hover:bg-yellow-600 mb-4">Update Post</button>
+        </form>
+    </div>
+
+    <!-- Display Area -->
+    <div id="postsContainer" class="max-w-2xl mx-auto mt-6 bg-gray-100 rounded-md p-4"></div>
+
+    <script type="module" src="post.js"></script>
+</body>
+</html>

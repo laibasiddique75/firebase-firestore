@@ -1,0 +1,157 @@
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.signup-card {
+    background-color: #fff;
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.form-icon {
+    font-size: 40px;
+    color: #6a11cb;
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    border-radius: 30px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    border: none;
+    border-radius: 30px;
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+.btn-primary:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+}
+
+.form-text {
+    font-size: 0.9rem;
+    color: #666;
+}
+.form-link {
+    color: #6a11cb;
+    text-decoration: none;
+}
+.form-link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+.login-container {
+    background: #fff;
+    padding: 40px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.login-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    padding-left: 40px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+.form-group input:focus {
+    border-color: #6e8efb;
+    box-shadow: 0 4px 12px rgba(110, 142, 251, 0.2);
+}
+.form-group i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+    font-size: 18px;
+}
+.login-button {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    border: none;
+    color: #fff;
+    padding: 12px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-bottom: 10px;
+}
+.login-button:hover {
+    background: linear-gradient(135deg, #a777e3, #6e8efb);
+}
+.forgot-password {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #6e8efb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.forgot-password:hover {
+    color: #a777e3;
+}
+
+
+#google-signin-btn {
+    margin-top: 10px;
+  }
+
+
+
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f6d365;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+    }
